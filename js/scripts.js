@@ -20,4 +20,6 @@ const number2 = parseInt(prompt("Enter another number:"));
 //window.alert("The subtraction of your numbers equals " + subtract(number1, number2));
 //window.alert("The multiplying of your numbers equals " + multiply(number1, number2));
 //window.alert("The division of your numbers equals " + division(number1, number2));
-window.alert(number1.toString() + " + " + number2.toString() + " = " + add(number1, number2) + "\n" + number1.toString() + " - " + number2.toString() + " = " + subtract(number1, number2) + "\n" + number1.toString() + " * " + number2.toString() + " = " + multiply(number1, number2) + "\n" + number1.toString() + " / " + number2.toString() + " = " + division(number1, number2));
+
+window.alert(number1 + " + " + number2 + " = " + add(number1, number2) + "\n" + number1 + " - " + number2 + " = " + subtract(number1, number2) + "\n" + number1 + " * " + number2 + " = " + multiply(number1, number2) + "\n" + number1 + " / " + number2 + " = " + division(number1, number2));
+
